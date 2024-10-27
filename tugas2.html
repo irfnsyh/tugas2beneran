@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas2</title>
+</head>
+<body>
+
+    <header id="main-header" style="border: 2px solid #ffb3b3; padding: 1rem; text-align: center;">
+        <h1>Top 3 Album Kaneko Ayano</h1>
+        <p>Explore album terbaik dari Kaneko Ayano dan lagu-lagu favorit!</p>
+    </header>
+
+    <section id="album-list" style="border: 2px solid #ffb3b3; padding: 1rem; margin-top: 1rem;">
+        <h2>Album Favorit</h2>
+        <table class="album-table" border="1" cellpadding="10" cellspacing="0" style="width: 100%; text-align: left;">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Nama Album</th>
+                    <th>Tahun Rilis</th>
+                    <th>Jumlah Lagu</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td><a href="#album1">Sansan</a></td>
+                    <td>2019</td>
+                    <td>12</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href="#album2">Shukusai</a></td>
+                    <td>2018</td>
+                    <td>13</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href="#album3">Towelket ha Odayakana</a></td>
+                    <td>2023</td>
+                    <td>10</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section class="album-detail" id="album1" style="border: 2px solid #ffb3b3; padding: 1rem; margin-top: 1rem;">
+        <img src="https://cdns-images.dzcdn.net/images/cover/bb316604d62327f44c4ca8e8dece33e2/0x1900-000000-80-0-0.jpg" alt="Cover Album Sansan" width="200" style="border: 1px solid #ddd;">
+        <h2>Album: Sansan</h2>
+        <p><strong>Tahun Rilis:</strong> 2019</p>
+        <p>Album debut yang menghadirkan suara unik Kaneko Ayano.</p>
+        <ul>
+            <li>Lagu Utama: <em>Sansan</em></li>
+            <li>Genre: Indie Pop</li>
+        </ul>
+        <audio controls>
+            <source src="sansan.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+
+    <section class="album-detail" id="album2" style="border: 2px solid #ffb3b3; padding: 1rem; margin-top: 1rem;">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/41/31/e1/4131e193-99a9-2227-e948-c6108ca39387/4522197129105.jpg/1200x1200bb.jpg" alt="Cover Album Shukusai" width="200" style="border: 1px solid #ddd;">
+        <h2>Album: Shukusai</h2>
+        <p><strong>Tahun Rilis:</strong> 2018</p>
+        <p>Album penuh emosi yang memperlihatkan perkembangan musik Kaneko Ayano.</p>
+        <ul>
+            <li>Lagu Utama: <em>Romance Sengen</em></li>
+            <li>Genre: Indie Rock</li>
+        </ul>
+        <audio controls>
+            <source src="romance.mp3" type="audio/mpeg">
+            Browser anda tidak mendukung pemutar audio.
+        </audio>
+    </section>
+
+    <section class="album-detail" id="album3" style="border: 2px solid #ffb3b3; padding: 1rem; margin-top: 1rem;">
+        <img src="https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/25/44/22/25442233-7507-6d74-a0f6-25412651d39f/4525853374697.jpg/1200x1200bf-60.jpg" alt="Cover Album Towelket ha Odayakana" width="200" style="border: 1px solid #ddd;">
+        <h2>Album: Towelket ha Odayakana</h2>
+        <p><strong>Tahun Rilis:</strong> 2023</p>
+        <p>Album dengan tema lembut dan kedamaian yang mendalam.</p>
+        <ul>
+            <li>Lagu Utama: <em>Towelket ha Odayakana</em></li>
+            <li>Genre: Indie Pop</li>
+        </ul>
+        <audio controls>
+            <source src="towelket.mp3" type="audio/mpeg">
+            Browser anda tidak mendukung pemutar audio.
+        </audio>
+    </section>
+
+    <footer style="border: 2px solid #ffb3b3; padding: 1rem; margin-top: 1rem; text-align: center;">
+        <h3>Kontak</h3>
+        <form action="#" method="post">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required style="width: 100%; padding: 5px;">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required style="width: 100%; padding: 5px;">
+            <br>
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="4" required style="width: 100%; padding: 5px;"></textarea>
+            <br>
+            <button type="submit" style="padding: 10px; background-color: #ffb3b3; border: none; cursor: pointer;">Kirim</button>
+        </form>
+    </footer>
+
+</body>
+</html>
